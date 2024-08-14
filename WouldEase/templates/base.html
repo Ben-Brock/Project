@@ -1,6 +1,20 @@
 <!-- templates/base.html -->
 <header>
     <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a> | <a href="{% url 'contact' %}">Contact Us!</a>
+    {% if user.is_authenticated %}
+        <p>Hi! {{user.username}}</p>
+        <form id="logout-form" action="{% url 'logout' %}" method="POST" style="display: none;">
+            {% csrf_token %}
+        </form>
+        
+        <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+            Log Out
+        </a>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Log In</a>
+        <a href="{% url 'signup' %}">Sign Up!</a>
+    {% endif %}
 </header>
 
 {% block content %}
