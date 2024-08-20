@@ -4,10 +4,7 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 
 class CustomUser(AbstractUser):
-    is_admin = models.BooleanField(default=False)
-
-    def is_admin(self):
-        return self.is_admin
+    age = models.PositiveIntegerField(null=True,)
 
 class Region(models.Model):
     name = models.CharField(max_length=50)
