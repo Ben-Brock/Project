@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags%}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,8 +12,8 @@
             <h1>Log In </h1>
             <form action="" method="POST">
                 {% csrf_token %}
-                {{form.as_p}}
-                <input type="submit" value="Log In"/>
+                {{form|crispy}}
+                <button class="btn btn-success" type="submit">Sign In</button>
             </form>
         {% endblock content %}
     </body>
