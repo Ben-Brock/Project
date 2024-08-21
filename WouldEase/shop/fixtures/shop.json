@@ -1,0 +1,32 @@
+[
+    {
+        "model": "shop.category",
+        "pk": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+        "fields": {
+            "name": "Homewares",
+            "description": "Shop Products for Homeware"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+        "fields": {
+            "name": "Painting",
+            "description": "Paints, Brushes, Rollers, Everything you need"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Leyland Pure Brilliant White Matt Emulsion Paint",
+            "description": "Beautiful Matte White Paint made by Leyland (10L)",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "20.00",
+            "stock": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    }
+]
