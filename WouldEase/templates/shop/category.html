@@ -28,7 +28,7 @@
     
     <div>
         {% if category %}
-            <img src="{{category.image.url}}" alt="{{category.name}}">
+            <img src="{{category.image}}" alt="{{category.name}}">
         </div>
         <br>
         <div>
@@ -55,7 +55,7 @@
                     <div>
                         <div>
                             <a class="img" href="{{product.get_absolute_url}}">
-                                <img src="{{product.image.url}}" alt="{{product.name}}">
+                                <img src="{{product.image}}" alt="{{product.name}}">
                             </a>
                             <div>
                                 <h4>{{product.name}}</h4>
@@ -64,6 +64,18 @@
                         </div>
                     </div>
                 {% endfor %}
+            </div>
+            <div class="mx-auto">
+                {% if prods.paginator.num_pages > 1 %}
+                    <hr>
+                    <div class="text-center">
+                        {% for pg in prods.paginator.page_range %}
+                            <a href="?page={{pg}}" class="btn btn-light btn-sm {%
+                            if products.number == pg %}active{% endif
+                            %}">{{pg}}</a>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
             <br>
         </div>

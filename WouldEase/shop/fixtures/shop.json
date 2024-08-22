@@ -4,7 +4,8 @@
         "pk": "116fa26d-6580-4d1b-a319-8ad526551cb3",
         "fields": {
             "name": "Homewares",
-            "description": "Shop Products for Homeware"
+            "description": "Shop Products for Homeware",
+             "image":"https://www.ikea.com/ie/en/home-design/static/5913a0e4f0141ef95597425e9e0c617e/cef4c/hero_mobile.jpg"
         }
     },
     {
@@ -12,7 +13,27 @@
         "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
         "fields": {
             "name": "Painting",
-            "description": "Paints, Brushes, Rollers, Everything you need"
+            "description": "Paints, Brushes, Rollers, Everything you need",
+            "image":"https://newlinelandscapingdublin.ie/wp-content/uploads/2023/08/exterior-house-painting.jpeg"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "e8e2aba1-f41c-4ecf-9978-db073934a5a1",
+        "fields": {
+            "name": "Gardening",
+            "description": "Gardening stuff",
+            "image":"https://images.immediate.co.uk/production/volatile/sites/10/2018/11/2048x1365-10-New-Year-resolutions-for-garden-LI3022053-488e702.jpg"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "beffa65a-9d0f-4455-83ed-c9f5a55acd43",
+        "fields": {
+            "name": "Power tools",
+            "description": "Power tool stuff",
+            "image":"https://media.screwfix.ie/is/image/ae235/power_tool_buying_guides_mobile?wid=634&hei=491&dpr=on"
+
         }
     },
     {
@@ -26,7 +47,24 @@
             "stock": 3,
             "available": true,
             "created": "2022-11-09T14:28:17.802Z",
-            "updated": "2022-11-09T14:28:17.802Z"
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://media.screwfix.ie/is/image/ae235/7291V_P?$fxSharpen$=&wid=257&hei=257&dpr=on"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "3b781dc8-90ad-4194-803f-7441ce898313",
+        "fields": {
+            "name": "Dulux Heritage Matt Midnight Teal 2.5Ltr",
+            "description": "Dulux Heritage Velvet Matt is a luxury washable matt emulsion formulated with premium quality pigments to guarantee excellent depth of colour and with specially blended clays for effortless application, and an irresistible soft to touch finish.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "52.99",
+            "stock": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://www.coopsuperstores.ie/cdn/shop/files/1803879_1.jpg?v=1704991688&width=750"
         }
     }
+
 ]
