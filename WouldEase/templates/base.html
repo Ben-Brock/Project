@@ -10,6 +10,12 @@
                 <a  href="{% url 'home' %}" class="me-3">Home</a>
                 <a href="{% url 'about' %}" class="me-3">About</a>
                 <a href="{% url 'contact' %}">Contact</a>
+                <a href = "{% url 'shop:all_products' %}">All Products</a>
+                {% for cat in links %}
+                    <a href = "{{cat.get_absolute_url}}"> {{cat.name}}</a>
+                    <br>
+                {% endfor %}
+                
             </nav>
             <div class="d-flex gap-3 align-items-center">
                 {% if user.is_authenticated %}
