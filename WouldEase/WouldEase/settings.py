@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'shop',
     'search_app',
     'cart',
+    'stripe',
     #3rd party
     'crispy_forms',
     'crispy_bootstrap5',
@@ -147,4 +148,7 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
+STRIPE_SECRET_KEY = 'sk_test_51MDVHAAk6HeCmAkR5UaVUs2Rc3y3gVB5L2MPDOoHPuAG1AGHE8oj9k2jSVZcPTjqOZQ4aun4Pt3y62fncoo4yK9D008KiPpjcp'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51MDVHAAk6HeCmAkRfFLiHfcWrifbsbtaFMGl3ezymvWoxQYHeldAdiYvwTlwDtskUdVlONLj6I6HIM28nZi0vGhj00DmTPiV39'
 
