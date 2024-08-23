@@ -41,12 +41,12 @@ def cart_detail(request, total=0, counter=0, cart_items=None):
         cart_items = CartItem.objects.filter(cart=cart, active=True)
         
         for cart_item in cart_items:
-            # Correct access to the 'product' attribute of the 'cart_item'
+            
             total += (cart_item.product.price * cart_item.quantity)
             counter += cart_item.quantity
     except ObjectDoesNotExist:
-        # Handle the case where the cart or cart items do not exist
-        cart_items = []  # Provide an empty list to avoid template errors
+        
+        cart_items = [] 
         pass
     stripe.api_key = settings.STRIPE_SECRET_KEY
     stripe_total = int(total*100)
