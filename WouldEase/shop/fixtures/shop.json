@@ -65,6 +65,98 @@
             "updated": "2022-11-09T14:28:17.802Z",
             "image":"https://www.coopsuperstores.ie/cdn/shop/files/1803879_1.jpg?v=1704991688&width=750"
         }
+    },
+    {
+        "model": "shop.product",
+        "pk": "6dcc7553-7db3-48f7-ab16-98898c69d865",
+        "fields": {
+            "name": "DeWalt DCS355N XR Brushless Oscillating Multi-Tool 18V Bare Unit",
+            "description": "The DeWalt 18V XR Li-ion brushless oscillating multitool is a versatile tool for heavy-duty tasks. Featuring a brushless motor that delivers a no-load speed of 20,000 Opm, it offers faster completion of the most demanding applications. The dual-grip variable speed trigger provides greater control and adjustment of speed during use. A bright LED light illuminates the working area, making it ideal when working in poorly lit spaces. With the universal accessory adaptor, you can use this tool with most oscillating tool accessory brands. The tool comes with a set of accessories, including a sanding pad, 29 sheets of assorted sandpaper, 31 x 43mm wood with nails blade and 31 x 43mm fast cut wood blade and also universal blade adaptor so that you can start your project straight away.The tool comes as bare unit and the battery or charger are not included.",
+            "category": "beffa65a-9d0f-4455-83ed-c9f5a55acd43",
+            "price": "150.00",
+            "stock": 20,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQMNbG4zBHBhlkayacgzU0P5hurdvENzovTNZTp67_hnwO-BUp1GbCb5zsP5mq7Qk3oXk3OZ88IS9rVgiV2UISBHJqImPyTCq1eWtFb9jSz5SYVvFuzUmGD3w"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "b3342573-acdb-4181-a268-76b38225baed",
+        "fields": {
+            "name": "Black & Decker Oscillating Multi Tool 300W",
+            "description": "deal for cutting ceramic tiles, plunge cutting door frames when laying laminate flooring, plasterboard inserts, non-ferrous and plastic piping, detail sanding, removing grout, general wood cutting, paint and tile adhesive removal.",
+            "category": "beffa65a-9d0f-4455-83ed-c9f5a55acd43",
+            "price": "93.00",
+            "stock": 20,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS92s-8GGyPURBJJ8sUXYzlE13MOnhKxRHe-TCW7bd93U-l3TvrhTA_g_XcWwmOiuDe35r33DJqa2Sv8x99iOKAbeECAAbx"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "93ff0637-6ac3-45ef-a332-e2910093ee43",
+        "fields": {
+            "name": "Esschert Design Gardening Tool Set Gt47",
+            "description": "The traditional set is delivered in a full-colour gift box and contains a glass plant sprayer, a pair of pruning shears and a hand fork. The stainless steel tools have classic ashwood handles and leather hanging loops.",
+            "category": "e8e2aba1-f41c-4ecf-9978-db073934a5a1",
+            "price": "66.99",
+            "stock": 20,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRUNFqPfIdT4yW5VepUnOBgmd823YzN_mVZqpdNyyDXpdSgRkt_P3l9tGb7Yq4HwLvz5_51YEnu6kV2fgWWdyTLvvfNnA2RwyupdcWPHAGTf-J8BvY96CMMvv0"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "3620d0e4-1f71-4c03-b820-31d2a1090c43",
+        "fields": {
+            "name": "Draper 21 Garden Sweeper",
+            "description": "A Lightweight, Yet Robust Lawn Sweeper For Clearing Leaves, Grass And Gardening Debris. The 21 Working Width Easily Collects The Debris And Catches It In A Collection Bag By Means Of The Four Height Adjustable Nylon Brushes. Manufactured With A Steel Chassis And Housed In Plastic Body. Display Packed.",
+            "category": "e8e2aba1-f41c-4ecf-9978-db073934a5a1",
+            "price": "74.99",
+            "stock": 20,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRYxi-u1ymLrdMmnMb9JC26HBfZD4ZZ-lb4lzVZzcu9rZsSQY_NM43eObbHBuOkdM1k2_yxiTRaP9OIutGghYEDR1dV6DlpgNeyYLryZqIT05zZgroPsdovCA"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "ffca1ad6-2891-49eb-af91-65287e1afb11",
+        "fields": {
+            "name": "HD600OK Core Hudson Box Shelf Kit - Oak (600x240x40mm)",
+            "description": "This Hudson box shelf kit in oak is a floating box shelf kit that comes with concealed hidden metal brackets to give that floating effect.Once mounted to a wall, it is the perfect display shelf for all of your smaller personal items.",
+            "category": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+            "price": "24.00",
+            "stock": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQwZHQI0YmVFtYIlqNGqEW6L60GISFI4meDU3N7hFQFXgz_yPm8-uV4L2aOn_yMYxyNDRYSrJ2IQXBsLVFbTiyr9bLwyMf5vxUNkVmDwS5YmWYSwiRhWfDFHg"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "b8edcc58-fce0-4762-97cd-ed2902da6b55",
+        "fields": {
+            "name": "Valley - Natural Dining Table",
+            "description": "VALLEY 4FT X 2.5FT TABLE A rustic design and natural colours helps this Valley dining table bring a warm feeling to your home. With its large table top, this table can sit up to 6 people. ",
+            "category": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+            "price": "99.00",
+            "stock": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z",
+            "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSdOFAmFIV_loishOiOR5bJmCYmG4I-BN2U-UUwWtnQHW90DsnR4KAcfzQT61LaOGtWxCL4tjsmfGiqThdx3nWMvuJtODwuCqf9v81NzvWRHIKb9L6cyDGj"
+        }
     }
+
+
 
 ]
