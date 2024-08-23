@@ -4,15 +4,15 @@
     {% if category %}
         {{ category.description|truncatewords:155 }}
     {% else %}
-        Welcome to the cushion store where you can buy comfy and awesome cushions.
+        Welcome to WouldEase DIY, we have everything for your DIY needs
     {% endif %}
 {% endblock %}
 
 {% block title %}
     {% if category %}
-        {{ category.name }} - Perfect Cushion Store
+        {{ category.name }} - WouldEase DIY
     {% else %}
-        See Our Cushion Collection - Perfect Cushion Store
+        Everything for your DIY needs
     {% endif %}
 {% endblock %}
 
@@ -36,15 +36,10 @@
             <p>{{category.description}}</p>
         </div>
         {% else %}
-            <img src="{% static 'images/banner.jpg' %}" alt="Our Products Collection">
-        </div>
         <br>
         <div>
-            <h1>Our Products Collection</h1>
-            <p>Finding the perfect cushion for your room can instantly add to the levels of comfort and
-               sense of style throughout your home. They can transform the blandest of decors instantly
-               by adding colour, softness and an air of cosiness. As well as being comfy and looking great,
-               our range of cushions will certainly embolden your décor with personalised charm.
+            <h1 class="text-center">Our Products Collection</h1>
+            <p>Shop for Homeware, Gardening equipment, paints and Power
             </p>
         </div>
         {% endif %}
